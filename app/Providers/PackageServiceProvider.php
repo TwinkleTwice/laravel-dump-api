@@ -19,10 +19,6 @@ class PackageServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->publishes([
-            __DIR__.'/../bootstrap/providers.php' => config_path('providers.php'),
-        ], 'config');
-
-        $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
     }
 }
