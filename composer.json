@@ -22,5 +22,7 @@
         "sort-packages": true,
         "preferred-install": "dist",
         "optimize-autoloader": true
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
