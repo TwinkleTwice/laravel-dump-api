@@ -23,6 +23,13 @@
         "preferred-install": "dist",
         "optimize-autoloader": true
     },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Sano\\LaravelDumpApi\\App\\Providers\\PackageServiceProvider"
+        ]
+      }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
